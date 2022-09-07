@@ -12,10 +12,11 @@
 		<!-- Project Variables -->
 		<testng.file.name>SmokeTests.xml</testng.file.name>
 		<env>prod</env>
-		<run.in.browser>true</run.in.browser>
-		<browser>firefox</browser>
+		<run.in.browser>false</run.in.browser>
+		<browser>chrome</browser>
 		<max.retry.count>2</max.retry.count>
 		<parallel.thread.count>2</parallel.thread.count>
+		<grid.url>http://localhost:8082</grid.url>
 		<output.dir>target/libs</output.dir>
 		<reports.path>test-output/extentreports</reports.path>
 	</properties>

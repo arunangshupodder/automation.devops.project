@@ -45,5 +45,7 @@ public abstract class Config {
 		return getData("run.in.browser");
 	}
 
-
+	public static String getLocalGridURL() {
+		return getData("grid.url") + "/wd/hub";
+	}
 }
